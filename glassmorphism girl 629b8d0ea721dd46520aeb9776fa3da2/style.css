@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cambria;
+    color: beige;
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.wrapper .imgbig {
+    position: absolute;
+    left: -24%;
+    z-index: 1;
+    width: 1000px;
+    transform: scaleX(-1);
+}
+
+header {
+    position: relative;
+    z-index: 20;
+    width: 5%;
+    background: rgb(255, 0, 0);
+}
+
+header p {
+    position: absolute;
+}
+
+header .conor1 {
+    top: -310px;
+    left: 15px;
+}
+
+header .conor2 {
+    left: -170px;
+    transform: rotate(-90deg);
+    letter-spacing: 50px;
+}
+
+header .conor3 {
+    top: 260px;
+    left: 15px;
+    transform: scaleX(-1);
+}
+
+header .conor4 {
+    top: 260px;
+    left: 1300px;
+}
+
+header .conor5 {
+    top: -310px;
+    left: 1300px;
+    transform: scaleY(-1);
+}
+
+.content {
+    position: relative;
+    height: 70vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.content img {
+    position: absolute;
+    width: 600px;
+    z-index: -2;
+left:40%;
+}
+
+.content .words {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin: auto;
+}
+
+.content .words .glass {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    top: -15%;
+    left: -5%;
+    font-size: 7.5rem;
+    font-family: 'times';
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+    font-weight: 900;
+    background: rgba(255, 255, 255, 0.11);
+    height: 100vh;
+    width: 40vw;
+    backdrop-filter: blur(10px);
+}
+
+.content .words p {
+    position: relative;
+    left: -2.5%;
+    bottom: 60%;
+    font-size: 1.5rem;
+    letter-spacing: 26px;
+    margin: auto 0 0 0;
+}
+
+.content h2 {
+    position: relative;
+    top: -45%;
+    z-index: 20;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 900;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content h2 p {
+    font-weight: 100;
+    font-size: .8rem;
+}
